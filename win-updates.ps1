@@ -125,7 +125,7 @@ function Install-WindowsUpdates() {
         LogWrite 'No updates available to install...'
         $global:MoreUpdates=0
         $global:RestartRequired=0
-        Invoke-Expression "a:\openssh.ps1 -AutoStart"
+        Invoke-Expression "С:\openssh.ps1 -AutoStart"
         break
     }
 
